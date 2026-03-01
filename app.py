@@ -2,7 +2,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 st.set_page_config(
-    page_title="A Letter From My Heart",
+    page_title="来自我心底的信",
     page_icon="💖",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -21,7 +21,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 HTML = """<!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -151,34 +151,34 @@ HTML = """<!DOCTYPE html>
 
 <main>
   <header>
-    <div class="pre-title">✦ a letter for you ✦</div>
-    <h1>From My Heart<br/>To Yours</h1>
+    <div class="pre-title">✦ 一封写给你的信 ✦</div>
+    <h1>从我心底<br/>到你心里</h1>
     <div class="divider"></div>
   </header>
 
   <div class="letter-card">
-    <div class="salutation">My dearest love,</div>
-    <p>There are moments in life that quietly change everything — a glance across a room, a laugh shared too late at night, a silence that somehow says more than words ever could. You are all of those moments for me, woven into one extraordinary person.</p>
-    <p>I have tried so many times to put into words what you mean to me, and every time I fall beautifully short. You are the warmth I reach for on cold mornings. You are the thought that makes the ordinary feel luminous. You are, without question, the most wonderful part of my world.</p>
-    <p>With you, I have learned that love is not just the grand gestures — it lives in the quiet ones. The way you remember the little things. The way your presence makes any room feel like home. The way you make me want to be my truest self.</p>
-    <p>I don't want to imagine a single chapter of my life without you in it. So I'm not going to.</p>
-    <div class="signature">Forever yours 💫</div>
+    <div class="salutation">我最亲爱的人，</div>
+    <p>生命中有些瞬间，悄悄改变了一切——隔着人群的一个眼神，深夜里共同的笑声，以及某种无声胜有声的沉默。对我而言，你就是所有这些瞬间，凝聚成一个无与伦比的人。</p>
+    <p>我无数次尝试用语言表达你对我的意义，却每一次都美丽地词穷。你是我在寒冷清晨渴望的温暖。你是让平凡变得闪光的念想。你，毫无疑问，是我世界里最美好的部分。</p>
+    <p>和你在一起，我明白了爱不只存在于宏大的姿态——它也藏在细微之处。你记住那些小事的方式。你的存在让任何地方都变得像家。你让我渴望成为最真实的自己。</p>
+    <p>我不愿想象生命中有任何一个章节没有你的身影。所以，我不会那样去想。</p>
+    <div class="signature">永远属于你的 💫</div>
   </div>
 
   <section class="proposal">
-    <h2>Will you be mine?</h2>
-    <p class="sub">Forever and always — this is my ask.</p>
+    <h2>你愿意成为我的人吗？</h2>
+    <p class="sub">永远永远——这是我的请求。</p>
     <div class="proposal-buttons">
-      <button class="btn btn-yes" onclick="celebrate()">Yes, always ♡</button>
-      <button class="btn btn-no" id="noBtn" onclick="runAway()">Maybe not...</button>
+      <button class="btn btn-yes" onclick="celebrate()">愿意，永远 ♡</button>
+      <button class="btn btn-no" id="noBtn" onclick="runAway()">也许不...</button>
     </div>
   </section>
 </main>
 
 <div id="celebration">
   <div class="big-heart">💖</div>
-  <h2>You said yes!</h2>
-  <p>My heart is the happiest it has ever been. I promise to cherish every moment with you — today, tomorrow, and every day after.</p>
+  <h2>你答应了！</h2>
+  <p>我的心比任何时候都快乐。我承诺珍惜与你在一起的每一刻——今天、明天，以及此后的每一天。</p>
 </div>
 
 <script>
